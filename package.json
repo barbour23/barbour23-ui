@@ -1,0 +1,15 @@
+{
+  "name": "barbour23-ui",
+  "version": "1.0.0",
+  "description": "Barbour23 UI. Yup, that is it.",
+  "scripts": {
+    "buildwebsite": "cd website && npm run build && cd ../",
+    "buildcdk": "cd cdk && npm run build && cdk synth && cd ../",
+    "build": "npm run buildwebsite && npm run buildcdk",
+    "deploy": "cd cdk && npm run deploy && cd ../",
+    "build-deploy": "npm run build && npm run deploy",
+    "test": "echo \"no ci/cd tests setup\""
+  },
+  "author": "",
+  "license": "ISC"
+}

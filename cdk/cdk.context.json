@@ -1,0 +1,8 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "hosted-zone:account=616615082738:domainName=barbour23.com:region=eu-west-2": {
+    "Id": "/hostedzone/Z0947051CVPRS693XNOY",
+    "Name": "barbour23.com."
+  }
+}

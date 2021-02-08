@@ -1,0 +1,15 @@
+$ui-theme-primary: mat-palette($mat-blue-grey);
+$ui-theme-accent: mat-palette($mat-light-blue);
+$ui-theme-warn: mat-palette($mat-red);
+
+$ui-theme: mat-light-theme(
+    $ui-theme-primary,
+    $ui-theme-accent,
+    $ui-theme-warn
+);
+
+$ui-theme: mat-dark-theme(
+    $ui-theme-primary,
+    $ui-theme-accent,
+    $ui-theme-warn
+);
